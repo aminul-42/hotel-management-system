@@ -450,43 +450,6 @@ http://127.0.0.1:8000
 
 ---
 
-# 🌐 Main Routes
-
-## 👤 Customer Routes
-
-| URL                               | Description              |
-| --------------------------------- | ------------------------ |
-| `/rooms`                          | Browse available rooms   |
-| `/rooms/{roomType}`               | View room type details   |
-| `/register`                       | Customer registration    |
-| `/booking/start`                  | Start booking            |
-| `/booking/customize`              | Customize booking        |
-| `/booking/coupon/apply`           | Apply coupon             |
-| `/booking/review`                 | Review booking           |
-| `/booking/confirm`                | Confirm booking          |
-| `/payment/fake/checkout/{tranId}` | Fake payment checkout    |
-| `/payment/success/{tranId}`       | Payment success          |
-| `/payment/failed/{tranId}`        | Payment failed           |
-| `/customer/bookings`              | Customer booking history |
-| `/customer/bookings/{booking}`    | Booking details          |
-
----
-
-## 🔐 Admin Routes
-
-| URL                 | Description          |
-| ------------------- | -------------------- |
-| `/admin/dashboard`  | Admin dashboard      |
-| `/admin/room-types` | Room type management |
-| `/admin/rooms`      | Room management      |
-| `/admin/room-rates` | Room rate management |
-| `/admin/bookings`   | Booking management   |
-| `/admin/coupons`    | Coupon management    |
-| `/admin/facilities` | Facility management  |
-| `/admin/customers`  | Customer management  |
-| `/admin/settings`   | Hotel settings       |
-
----
 
 # 🔒 Authentication & Authorization
 
